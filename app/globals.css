@@ -177,8 +177,8 @@ body {
 }
 
 .container {
-  width: 1200px;
-  margin: 0px auto;
+  width: min(1200px, calc(100% - 40px));
+  margin: 0 auto;
   position: relative;
 }
 
@@ -1141,8 +1141,7 @@ html[class^="img_"][amp4ads=""][i-amphtml-layout=""][i-amphtml-no-boilerplate=""
 /* Desktop devices (1025px - 1440px) */
 @media (min-width: 1025px) and (max-width: 1440px) {
   .container {
-    width: 95%;
-    max-width: 1200px;
+    width: min(1200px, calc(100% - 80px));
   }
 
   .composition {
@@ -1153,7 +1152,7 @@ html[class^="img_"][amp4ads=""][i-amphtml-layout=""][i-amphtml-no-boilerplate=""
 /* Large desktop devices (1441px+) */
 @media (min-width: 1441px) {
   .container {
-    width: 1400px;
+    width: min(1400px, calc(100% - 120px));
   }
 
   .huge-type {
