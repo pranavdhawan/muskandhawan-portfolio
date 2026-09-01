@@ -23,10 +23,10 @@ const projects: Project[] = [
   {
     id: "ai-exhibit-holobox",
     index: "001",
-    category: "INTERACTIVE MUSEUM INSTALLATION. UI/UX.",
+    category: "PRADHANMANTRI SANGRAHALAYA. UI/UX.",
     title: "AI Exhibit HOLOBOX",
     description:
-      "Designed UI/UX for an interactive museum installation, including visitor-facing interfaces and spatial graphics for a high-footfall environment.",
+    "Designed the UI/UX for interactive digital installations, including the visitor-facing AI Holobox experience, focusing on intuitive interaction and engagement in a high-footfall museum environment.",
     details: ["YEAR: 2025", "CLIENT: Prime Minister Museum and Library, New Delhi"],
     media: {
       type: "image",
@@ -41,7 +41,7 @@ const projects: Project[] = [
     category: "WEBGL VIRTUAL MUSEUM",
     title: "DIGITAL HAMPI MUSEUM",
     description:
-      "Worked on UI and spatial design for a WebGL-based virtual museum experience, improving navigation and engagement in 3D space.",
+    "Worked across the virtual museum’s space design and UI/UX, improving navigation, interaction and visual consistency within the WebGL-based experience.",
     details: ["YEAR: 2025", "CLIENT: National Cultural Fund (NCF)", "END CLIENT: Archaeological Survey of India (ASI)"],
     media: {
       type: "image",
@@ -57,7 +57,7 @@ const projects: Project[] = [
     category: "AUGMENTED REALITY EXPERIENCE. MUSEUM UPGRADATION.",
     title: "NALANDA AR APP",
     description:
-      "Independently designed and delivered the AR application, including user flows, UI screens, interaction design, and supporting museum graphics.",
+    "Independently designed and delivered the complete AR experience, from user flows and interaction design to UI screens, while also creating the physical museum’s interior graphics and space visuals.  ",
     details: ["YEAR: 2025", "CLIENT: Foundation for Innovation and Technology Transfer (FITT)", "END CLIENT: Archaeological Survey of India (ASI)"],
     media: {
       type: "image",
@@ -66,43 +66,66 @@ const projects: Project[] = [
     },
     fallbackLabel: "AR APP",
   },
-  {
-    id: "hirexa",
-    index: "004",
-    category: "PRODUCT DESIGN / HIRING EXPERIENCE",
-    title: "HireXA",
-    description: "A concise hiring workflow concept focused on clearer candidate matching and faster recruiter decisions.",
-    details: ["TODO: Add project-specific details", "TODO: Add release context"],
-    media: undefined,
-    fallbackLabel: "TODO",
-    mediaPosition: "right",
-  },
+  // {
+  //   id: "hirexa",
+  //   index: "004",
+  //   category: "PRODUCT DESIGN / HIRING EXPERIENCE",
+  //   title: "HireXA",
+  //   description: "A concise hiring workflow concept focused on clearer candidate matching and faster recruiter decisions.",
+  //   details: ["TODO: Add project-specific details", "TODO: Add release context"],
+  //   media: undefined,
+  //   fallbackLabel: "TODO",
+  //   mediaPosition: "right",
+  // },
 ]
 
 const skillGroups = [
   {
-    title: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Motion/UI Prototyping"],
+    title: "UI / UX DESIGN",
+    items: [
+      "Requirement → User Flows",
+      "UI Design",
+      "Interaction Design",
+      "Wireframing",
+      "Prototyping",
+      "Responsive Design",
+      "Figma",
+    ],
   },
   {
-    title: "Backend",
-    items: ["Node.js", "REST APIs", "Auth flows", "Database integration"],
+    title: "IMMERSIVE / EXPERIENCE",
+    items: [
+      "AR Experiences",
+      "VR Experiences",
+      "Interactive Installations",
+      "Spatial & Experience Design",
+      "Museum & Exhibition Experiences",
+      "Experience Conceptualisation",
+    ],
   },
   {
-    title: "AI/ML",
-    items: ["LLM workflows", "Prompt design", "AI product UX"],
+    title: "AI / CREATIVE WORKFLOWS",
+    items: [
+      "ChatGPT & Claude",
+      "Figma Make & Figma AI",
+      "AI-assisted Design & Prototyping",
+      "Prompting & AI Workflows",
+      "AI-assisted Development",
+      "Creative & Visual Exploration",
+    ],
   },
   {
-    title: "Databases",
-    items: ["PostgreSQL", "MongoDB", "Schema design"],
-  },
-  {
-    title: "Tools",
-    items: ["Figma", "Git", "Vercel", "Postman"],
-  },
-  {
-    title: "Design",
-    items: ["Information architecture", "Visual design", "Design systems"],
+    title: "TOOLS",
+    items: [
+      "Figma",
+      "Photoshop",
+      "InDesign",
+      "Illustrator",
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "Canva",
+    ],
   },
 ]
 
@@ -295,7 +318,7 @@ export default function Home() {
                   color: "#888",
                 }}
               >
-                I craft immersive digital products across VR, AR and web platforms. My expertise lies in user-centeres design for products that captive and enage.
+                I’m a UI/UX Designer with a background in Immersive Media Design, and I’ve always been someone who is deeply driven by creativity. I like exploring ideas, experimenting with different ways of solving a problem, and paying attention to the little details that make a design feel right. My work has ranged from digital products and UI/UX to AR/VR experiences, museum installations, immersive spaces and visual communication, which has helped me build a design approach that is not limited to just one medium. I like understanding the bigger picture before I start designing and believe that good design should be visually strong, intuitive and actually solve a problem. I’m naturally curious, very detail oriented and probably a little too invested in getting things exactly how I imagined them but that’s also what I love about designing.
               </p>
             </div>
           </div>
@@ -356,13 +379,12 @@ export default function Home() {
 
         <section id="enhance" className="container">
           <div className="section-heading">
-            <span className="section-kicker">HOW CAN I ENHANCE</span>
-            <h2 className="section-title">A focused place for improvements, experiments, and thoughtful iteration.</h2>
+            {/* <span className="section-kicker">HOW CAN I ENHANCE</span> */}
+            <h2 className="section-title">How can I enhance.</h2>
           </div>
           <div className="enhance-panel">
             <p>
-              TODO: add the exact “How Can I Enhance” content from your portfolio, or use this section to show
-              process notes, critiques, or service highlights.
+            I’m the kind of designer who likes to be involved beyond the brief. I bring ideas, opinions, and a willingness to get into the messy parts of a project when needed. I pick things up quickly, adapt easily, and like being around people who care about making good work.
             </p>
           </div>
         </section>
