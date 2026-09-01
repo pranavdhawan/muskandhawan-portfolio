@@ -341,7 +341,7 @@ export default function Home() {
               style={project.mediaPosition === "right" ? { flexDirection: "row-reverse" } : undefined}
             >
               <div className="project-info">
-                <span style={{ fontFamily: "var(--syne)", color: "var(--accent)" }}>
+                <span style={{ fontFamily: "var(--syne)", color: "#005146" }}>
                   {project.index} / {project.category}
                 </span>
                 <h3 className="huge-type" style={{ fontSize: "6rem", margin: "20px 0" }}>
