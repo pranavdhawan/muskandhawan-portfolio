@@ -1,0 +1,7 @@
+navbar - home, work, skills, how can i enhance, contact
+remove studio
+
+remove the photo just before header (yellow aunty)
+
+add behance and linkedin
+
