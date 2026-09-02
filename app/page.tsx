@@ -33,7 +33,7 @@ const projects: Project[] = [
       src: "/images/AIH holobox, pm museum.png",
       alt: "AI Exhibit HOLOBOX project preview",
     },
-    fallbackLabel: "EXHIBIT",
+    fallbackLabel: "",
   },
   {
     id: "digital-hampi-museum",
@@ -48,7 +48,7 @@ const projects: Project[] = [
       src: "/images/Hampi new.png",
       alt: "Digital Hampi Museum project preview",
     },
-    fallbackLabel: "MUSEUM",
+    fallbackLabel: "",
     mediaPosition: "right",
   },
   {
@@ -64,7 +64,7 @@ const projects: Project[] = [
       src: "/images/Nalanda museum.png",
       alt: "Nalanda AR app project preview",
     },
-    fallbackLabel: "AR APP",
+    fallbackLabel: "",
   },
   {
     id: "hirexa",
@@ -78,7 +78,7 @@ const projects: Project[] = [
       src: "/images/HireXA png.png",
       alt: "HireXA project preview",
     },
-    fallbackLabel: "TODO",
+    fallbackLabel: "",
     mediaPosition: "right",
   },
   {
@@ -93,7 +93,7 @@ const projects: Project[] = [
       src: "/images/Website design.png",
       alt: "Website design project preview",
     },
-    fallbackLabel: "TODO"
+    fallbackLabel: ""
   },
 ]
 
@@ -294,10 +294,6 @@ export default function Home() {
             <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#enhance">How Can I Enhance</a>
-          </li>
-
-          <li>
             <a href="#contact">Contact</a>
           </li>
         </ul>
@@ -395,36 +391,29 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="enhance" className="container">
-          <div className="section-heading">
-            {/* <span className="section-kicker">HOW CAN I ENHANCE</span> */}
-            <h2 className="section-title">How can I enhance.</h2>
-          </div>
-          <div className="enhance-panel">
-            <p>
-            I’m the kind of designer who likes to be involved beyond the brief. I bring ideas, opinions, and a willingness to get into the messy parts of a project when needed. I pick things up quickly, adapt easily, and like being around people who care about making good work.
-            </p>
-          </div>
-        </section>
-
         <section className="composition-section">
           <div className="container composition">
             <div className="comp-item-1">
               <img
-                src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&q=80&w=600"
+                src="/images/above-footer/3.png"
                 className="comp-image"
                 alt="Layer 1"
               />
             </div>
             <div className="comp-item-2">
               <img
-                src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&q=80&w=800"
+                src="/images/above-footer/2.png"
                 className="comp-image"
                 alt="Layer 2"
               />
             </div>
             <div className="comp-item-3">
-              <div
+            <img
+                src="/images/above-footer/1.png"
+                className="comp-image"
+                alt="Layer 3"
+              />
+              {/* <div
                 style={{
                   background: "var(--accent)",
                   padding: "40px",
@@ -436,7 +425,7 @@ export default function Home() {
                   We believe in depth—both in meaning and in visual manifestation. Overlapping elements create a
                   zine-like chaos that is meticulously organized.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
