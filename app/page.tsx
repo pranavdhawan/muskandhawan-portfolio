@@ -30,7 +30,7 @@ const projects: Project[] = [
     details: ["YEAR: 2025", "CLIENT: Prime Minister Museum and Library, New Delhi"],
     media: {
       type: "image",
-      src: "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=1200",
+      src: "/images/AIH holobox, pm museum.png",
       alt: "AI Exhibit HOLOBOX project preview",
     },
     fallbackLabel: "EXHIBIT",
@@ -45,7 +45,7 @@ const projects: Project[] = [
     details: ["YEAR: 2025", "CLIENT: National Cultural Fund (NCF)", "END CLIENT: Archaeological Survey of India (ASI)"],
     media: {
       type: "image",
-      src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200",
+      src: "/images/Hampi new.png",
       alt: "Digital Hampi Museum project preview",
     },
     fallbackLabel: "MUSEUM",
@@ -61,22 +61,40 @@ const projects: Project[] = [
     details: ["YEAR: 2025", "CLIENT: Foundation for Innovation and Technology Transfer (FITT)", "END CLIENT: Archaeological Survey of India (ASI)"],
     media: {
       type: "image",
-      src: "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&q=80&w=1200",
+      src: "/images/Nalanda museum.png",
       alt: "Nalanda AR app project preview",
     },
     fallbackLabel: "AR APP",
   },
-  // {
-  //   id: "hirexa",
-  //   index: "004",
-  //   category: "PRODUCT DESIGN / HIRING EXPERIENCE",
-  //   title: "HireXA",
-  //   description: "A concise hiring workflow concept focused on clearer candidate matching and faster recruiter decisions.",
-  //   details: ["TODO: Add project-specific details", "TODO: Add release context"],
-  //   media: undefined,
-  //   fallbackLabel: "TODO",
-  //   mediaPosition: "right",
-  // },
+  {
+    id: "hirexa",
+    index: "004",
+    category: "PRODUCT DESIGN / HIRING EXPERIENCE",
+    title: "HireXA",
+    description: "Designed an AI-powered hiring platform from concept to UI, mapping the user journey and end-to-end hiring experience for HR teams. Collaborated with AI/ML engineers and developers to shape a tool that sources, screens, interviews, and shortlists candidates.",
+    details: ["YEAR: 2026"],
+    media: {
+      type: "image",
+      src: "/images/HireXA png.png",
+      alt: "HireXA project preview",
+    },
+    fallbackLabel: "TODO",
+    mediaPosition: "right",
+  },
+  {
+    id: "website-design",
+    index: "005",
+    category: "WEBSITE UI",
+    title: "Website design",
+    description: "Redesigned the company website from scratch, reworking its existing structure into a cohesive visual experience. Led the UI, visual direction, layouts, interactions, and overall look and feel.",
+    details: ["YEAR: 2026", "CLIENT: Personal"],
+    media: {
+      type: "image",
+      src: "/images/Website design.png",
+      alt: "Website design project preview",
+    },
+    fallbackLabel: "TODO"
+  },
 ]
 
 const skillGroups = [
