@@ -75,7 +75,7 @@ const projects: Project[] = [
     details: ["YEAR: 2026"],
     media: {
       type: "image",
-      src: "/images/HireXA png.png",
+      src: "/images/HireXA.png",
       alt: "HireXA project preview",
     },
     fallbackLabel: "",
@@ -285,7 +285,7 @@ export default function Home() {
       />
 
       <nav>
-        <div className="logo">Muskan Dhawan</div>
+        <div className="logo" onClick={() => window.location.href = '/'}>Muskan Dhawan</div>
         <ul className="nav-links">
           <li>
             <a href="#work">Work</a>
